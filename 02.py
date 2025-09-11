@@ -1,5 +1,5 @@
 # adattípusok
-''' Ez egy több
+''' Ez egy többb
  soros megjegyzés'''
 
 szoveg = "autorendszám"
