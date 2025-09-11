@@ -1,0 +1,39 @@
+# adattípusok
+''' Ez egy több
+ soros megjegyzés'''
+
+szoveg = "autorendszám"
+szam = 15
+logikai = True
+
+print(szoveg)
+print(szam)
+
+szam *= 2
+print(szam)
+print(not logikai)
+print(szam > 20)
+
+print(szoveg[0])
+print(szoveg[0:4])
+print(szoveg[4:])
+print(szoveg[4:8])
+print(szoveg[-4:])
+
+lista = ("habos" , "kakaó")
+print(lista[0] + lista[1])
+lista += ["tejszines"]
+print(lista[2], lista[0] + lista[1])
+
+
+halmaz = {5, 4, 8, 5}
+print(halmaz)
+
+szotar = {"név" : "Béla", "kor": 43}
+print(szotar)
+
+eletkor = input("Kérem adja meg az életkorát: ")
+eletkor += 5
+print(eletkor)
+
+
