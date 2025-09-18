@@ -2,8 +2,8 @@
 if 50>20:
     print("igaz")
 else:
-    print("nem igaz")
-    print("ez is hamis ág")
+        print("nem igaz")
+        print("ez is hamis ág")
 
 print("vége")
 uzenet = "hello!" if 10>100 else "bye!"
@@ -24,7 +24,7 @@ def szam_bekerese(legnagyobb_szam):
 
     return szam
 
-def szamologep():
+#def szamologep():
     muvelet = input("Milyen műveletet akar végrehajtani (+,-,*,/):")
     egyik_szam = szam_bekerese(10)
     masik_szam = szam_bekerese(100)
@@ -43,10 +43,22 @@ def veletlenszam(max):
     szam = random.randint(1,10)
     return szam
 
+def egesz_szam_bekerese():
+    while True:
+        szam= input("Kérek egy egész számot:")
+        try:
+            szam = int(szam)
+            break
+        except ValueError:
+            print("Nem egész számot adott meg.")
+    return szam
+
 
 # A program inditása
-if __name__ == "__main__":
+#if __name__ == "__main__":
     szamologep()
 
 
-#masik_szam = input("Kérek még egy számot:")
+#A program inditása
+if __name__ == "__main__":
+    egesz_szam_bekerese()
