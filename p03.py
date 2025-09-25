@@ -54,9 +54,6 @@ def egesz_szam_bekerese():
     return szam
 
 
-# A program inditása
-#if __name__ == "__main__":
-    szamologep()
 
 
 #A program inditása
