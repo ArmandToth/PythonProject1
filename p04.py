@@ -1,4 +1,4 @@
-def negyszog(a, b):
+'''def negyszog(a, b):
     ker = 2 * a + 2 * b
     ter = a * b
     alakzat = "téglalap"
@@ -31,3 +31,30 @@ print("Összegzés:",szamolas(1, 2, 3, 4))
 print("Kerület:", negyszog(4, 4)[0])
 print("Terület:", negyszog(4, 4)[1])
 print("Alakzat:", negyszog(4, 4)[2])
+'''
+
+
+import turtle
+import random
+
+def negyzet():
+    turtle.penup()
+    turtle.goto(-50, 50)
+    turtle.pendown()
+    turtle.pencolor("black")
+    turtle.pensize(5)
+
+    for _ in range(4):
+        turtle.forward(100)
+        turtle.right(90)
+
+def dobas():
+    negyzet()
+
+ablakl = turtle.Screen()
+
+turtle.onkey(dobas, "n")
+turtle.onkey(turtle.bye, "Escape")
+
+turtle.listen()
+turtle.mainloop()
