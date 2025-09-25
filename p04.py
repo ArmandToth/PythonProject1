@@ -48,8 +48,45 @@ def negyzet():
         turtle.forward(100)
         turtle.right(90)
 
+def pont(x, y):
+    turtle.goto(x, y)
+    turtle.dot(10,"black")
+
 def dobas():
+    turtle.hideturtle()
     negyzet()
+    szam = random.randint(6,6)
+    turtle.penup()
+
+    if szam == 1:
+        pont(0,0)
+    elif szam == 2:
+        pont(-30, 30)
+        pont(30,-30)
+    elif szam == 3:
+        pont(-30, 30)
+        pont(30,-30)
+        pont(0, 0)
+    elif szam == 4:
+        pont(-30, 30)
+        pont(30,30)
+        pont(-30, -30 )
+        pont(-30, 30)
+    elif szam == 5:
+        pont(-30, 30)
+        pont(30, -30)
+        pont(0,0)
+        pont(-30, -30)
+        pont(30, -30)
+    elif szam == 6:
+        pont(-30, 30)
+        pont(30, -30)
+        pont(-30, -30)
+        pont(30, 0)
+        pont(-30, -30)
+        pont(0, -30)
+        turtle.hideturtle()
+
 
 ablakl = turtle.Screen()
 
