@@ -53,6 +53,7 @@ def pont(x, y):
     turtle.dot(10,"black")
 
 def dobas():
+    turtle.clear()
     turtle.hideturtle()
     negyzet()
     szam = random.randint(6,6)
