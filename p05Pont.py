@@ -1,6 +1,7 @@
 import turtle
 import p05
 
+
 ablak = turtle.Screen()
 ablak.title("Pontverseny")
 ablak.bgcolor("black")

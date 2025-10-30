@@ -1,5 +1,6 @@
 import turtle
 
+
 class Teglalap():
     alakzat = "téglalap"
     def __init__(self, alap = 10, magassag = 5):

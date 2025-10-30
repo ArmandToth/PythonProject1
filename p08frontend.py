@@ -3,6 +3,7 @@ from tkinter import messagebox
 import  requests
 import p07n
 
+
 def adatkeres():
     try:
         valasz = requests.get("http://localhost:5000/api/data", timeout=3)

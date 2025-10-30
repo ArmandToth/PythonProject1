@@ -2,6 +2,7 @@ import tkinter as tk
 from tkinter import messagebox
 import random
 
+
 def dobas(dobasok):
     eredmenyek = [0 for _ in range(7)]
     for _ in range(dobasok):
